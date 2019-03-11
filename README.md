@@ -1,4 +1,4 @@
-# ScriptEd Advanced Hackathon: Dare Explore Disrupt!
+# Code Nation 2019 Advanced Hackathon: Hack the Impact 
 
 ### Your Project Members
 
