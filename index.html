@@ -15,44 +15,61 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Your Javascript Linked Below-->
     <script src="js/script.js" defer></script> 
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
+    <div class="background">
+    <div class="nav">
+            <p class="g"><a href="index.html"><b>Home</b> </a></p>
+            <p class="g"><a href="resources.html"><b>Resources</b></a></p>
+        </div>
+        <h1 id="title1">Hurricane Preparedness Checklist</h1>
   <select id="selection">
-    <option selected disabled> </option>
-    <option value="6">6</option>
-    <option value="8">8</option>
+    <option selected disabled>How Far Away is the Hurricane?</option>
+    <option value="18to36">18-36 hours away</option>
+    <option value="6to18">6-18 hours away</option>
+    <option value="during">During</option>
 </select>
 <div id="lists">
-    <div id="6">
-      bwahahahaha
-    </div>
-    <div id="8">
-        good one
-    </div>
+    <progress value="0" max="1" id="myBar"></progress>
+
+<div id="18to36">
+  <h4>When the hurricane is 18 to 36 hours away:</h4>
+  <input type="checkbox" name="18hours"  id= "hour1" class="18hours"> <label for="hour1">Restock your emergency preparedness kit. Include food and water sufficient for at least three days, medications, a flashlight, batteries, cash, and first aid supplies.</label><br>
+  <input type="checkbox" name="18hours"  id= "hour2" class="18hours"> <label for="hour2">Review your evacuation zone, evacuation route and shelter locations.</label> <br>
+  <input type="checkbox" name="18hours"  id= "hour3" class="18hours"> <label for="hour3">Bring loose, lightweight objects inside that could become projectiles in high winds. </label><br>
+  <input type="checkbox" name="18hours"  id= "hour4" class="18hours"> <label for="hour4">Board up windows with 5/8” exterior grade or marine plywood, cut to fit and ready to install. </label><br>
+  <input type="checkbox" name="18hours"  id= "hour5" class="18hours"> <label for="hour5">Protect your home: Cover all of your home’s windows. </label><br>
+  <input type="checkbox" name="18hours"  id= "hour6" class="18hours"> <label for="hour6">Bookmark your city or county website for quick access/ storm updates.  </label><br>
+  <input type="checkbox" name="18hours"  id= "hour7" class="18hours"> <label for="hour7">Keep copies to submit to your insurance adjuster. </label><br>
+  <input type="checkbox" name="18hours"  id= "hour8" class="18hours"> <label for="hour8">Stock your vehicle with emergency supplies and a change of clothes. </label><br>
+  <input type="checkbox" name="18hours"  id= "hour9" class="18hours"> <label for="hour9">Keep Stock your vehicle with emergency supplies and a change of clothes. </label><br>
 </div>
-<div id="18/36">
-  <input type="checkbox" name="during"  class= "18hours"> <label for="18hours">evac</label>- Do not climb into a closed attic. You may become trapped by rising flood water.<br>
-  <input type="checkbox" name="during"  class= "18hours"> <label for="18hours"></label><br>
-  <input type="checkbox" name="during"  class= "18hours"> <label for="18hours">6 </label>I have a boat<br><br>
-  <input type="submit" value="Submit">
-</div>
-<div id="6/18">
+
+<div id="6to18">
   <h4>When the hurricane is 6 to 18 hours away:</h4>
-  <!--Turn on your TV/radio
+  <input type="checkbox" name="6hours" id="step1" class="6hoursAway"> <label for="step1">Turn on your TV/radio. </label><br>
+  <input type="checkbox" name="6hours" id="step2" class="6hoursAway"> <label for="step2">Charge your cell phone. </label><br>
+  <input type="checkbox" name="6hours" id="step3" class="6hoursAway"> <label for="step3">Stay aware! Check your city/county website to stay updated. </label><br>
+  <input type="checkbox" name="6hours" id="step4" class="6hoursAway"> <label for="step4">Communicat and let friends and family know where you are.</label><br>
+  <input type="checkbox" name="6hours" id="step5" class="6hoursAway"> <label for="step5">Close storm shutters and stay away from windows.</label><br>
+  <input type="checkbox" name="6hours" id="step6" class="6hoursAway"> <label for="step6">Turn your refrigerator or freezer to the coldest setting</label><br>
+  <input type="checkbox" name="6hours" id="step7" class="6hoursAway"> <label for="step7">Keep a thermometer in the refrigerator to be able to check the food temperature when the power is restored.</label><br>
+  <input type="checkbox" name="6hours" id="step8" class="6hoursAway"> <label for="step8">If you’re not in an area that is recommended for evacuation, plan to stay at home or where you are and let friends and family know where you are.</label><br>
 
-Charge your cell phone
-
-check your city/county website to stay updates
-
-Let friends and family know where you are.
-
-Close storm shutters, and stay away from windows.
-
-Turn your refrigerator or freezer to the coldest setting
-
-Keep a thermometer in the refrigerator to be able to check the food temperature when the power is restored.
-
-If you’re not in an area that is recommended for evacuation, plan to stay at home or where you are and let friends and family know where you are. -->
+  </div>
+<div id="during">
+  <h4>When a hurricane is happening at the moment:</h4>
+  <input type="checkbox" name="during"  id= "present1" class="during"> <label for="present1">Evacuate Do not drive around barricades</label><br>
+  <input type="checkbox" name="during"  id= "present2" class="during"> <label for="present2"> Go to a FEMA safe room, ICC 500 storm shelter, or a small, interior, windowless room or hallway on the lowest floor that is not subject to flooding.</label><br>
+  <input type="checkbox" name="during"  id= "present3" class="during"> <label for="present3">Do not for current emergency information and instructions.</label> <br>
+  <input type="checkbox" name="during"  id= "present5" class="during"> <label for="present5">Use generator or other gasoline-powered machinery outdoors ONLY and away from windows.</label><br>
+  <input type="checkbox" name="during"  id= "present6" class="during"> <label for="present6"> Get a flashlight.</label><br>
+  <input type="checkbox" name="during"  id= "present7" class="during"> <label for="present7">Grab disaster supplies kit.</label><br>
+  
+</div>
+</div>
 </div>
   </body>
 </html>
