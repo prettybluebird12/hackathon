@@ -1,4 +1,22 @@
 h1 {
   color: black;
   font-family: couier;
+
 }
+
+body{
+  text-align:center;
+}
+#lists div {
+    display: none;
+}
+
+#progress{
+  width:350px;
+  height:40px;
+
+}
+
+
+body{ 
+  background-color: ;

@@ -45,4 +45,14 @@
 - Do not climb into a closed attic. You may become trapped by rising flood water.
 - Listen for current emergency information and instructions.
 - Use a generator or other gasoline-powered machinery outdoors ONLY and away from windows.
-- References: https://www.ready.gov/hurricanes
+- Get a flashlight
+- Grab disaster supplies kit
+- 
+
+**References**
+- https://www.ready.gov/hurricanes
+- https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/hurricane.html
+- 
+
+
+- css design: https://app.moqups.com/4uGZDUi0ZE/view
