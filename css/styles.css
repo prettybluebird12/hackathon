@@ -12,6 +12,10 @@ h1 {
 
 }
 
+html {
+  height: 100%;
+}
+
 body{
   font-family: 'SpaceTextRegular'; 
   background-color: black;
@@ -36,11 +40,12 @@ color:white;
   
 }
 #lists{
-    display: none;
     text-align:center;
     padding-left:50px;
 }
-
+#lists div {
+  display:none;
+}
 #lists h4 {
   font-size: 20px;
   font-weight: bold;

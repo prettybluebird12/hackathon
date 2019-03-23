@@ -1,21 +1,23 @@
 # Code Nation 2019 Advanced Hackathon: Hack the Impact 
 
 ### Your Project Members
-
+Savannah, Amner, Rukaiyaa, Lucy, Bailey, and Betsabe
 ### What is the name of your project?    
-
+Hurricane Checklist
 ### What does this project do?
+This project allows people to check off the important steps that need to be taken in the time of a hurricane. Serving as a reminder for people who are experiencing a hurriane to ensure that they are safe.
 
 ### Who did you design this project for?
-
+We designed this project essentially for people who are in close proximity to hurricane, in which they would be able to refer to this website in order to figure out what they should get done depending on how far or close the hurricane is to them.
 ### What was your inspiration for this project?
-
+The inspiration for this project was what occurred during Hurricane Sandy, but also all hurricanes, in which people are often caught off guard and are not necessarily aware of what they need to get done and what resources to stock up on. Ultimately, this project was created as a platform to help people be more prepared in times of crisis. 
 ### What challenges did you run into?
-
+We had some trouble coding together due to everyone working on the same page and not letting the changes go through.
+we also had some trouble on deciding what to do and who does it.
 ### What accomplishments are you most proud of?
-
+The chrome extension, progress bar and the over design. Especially the animation. 
 ### What did your team learn?
-
+Our team learned skills like how to use pseudo selectors and check boxes.
 ### Research
 **When a hurricane is 18-36 hours from arriving**
 - Restock your emergency preparedness kit. Include food and water sufficient for at least three days, medications, a flashlight, batteries, cash, and first aid supplies.
